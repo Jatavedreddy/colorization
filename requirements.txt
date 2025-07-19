@@ -1,6 +1,8 @@
 torch
-skimage
+scikit-image
 numpy
 matplotlib
 argparse
-PIL
+Pillow
+torchvision
+gradio
