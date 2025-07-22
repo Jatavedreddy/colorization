@@ -9,7 +9,7 @@ This repository contains PyTorch implementations of image colorization models.
 - PyTorch
 - Scikit-image
 - Numpy
-- Matplotlib
+- Gradio
 
 ### Installation
 1. Clone the repository:
@@ -23,12 +23,8 @@ This repository contains PyTorch implementations of image colorization models.
 
 ## Usage
 
-To colorize an image, run the `demo.py` script with the path to your image:
+To start the application, run the `app.py` script:
 ```
-python demo.py -i <path_to_your_image>
+python app.py
 ```
-For example:
-```
-python demo.py -i imgs/ansel_adams.jpg
-```
-The colorized images will be saved in the `imgs_out` directory.
+This will launch a Gradio interface in your browser.
